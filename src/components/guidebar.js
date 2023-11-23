@@ -4,11 +4,12 @@ import PersonIcon from '@mui/icons-material/Person';
 import BookIcon from '@mui/icons-material/Book';
 import FolderIcon from '@mui/icons-material/Folder';
 
+
 function GuideBar(){
     return (
         <BottomNavigation
         sx={{
-          width: '40%', // Set the width as needed
+          width: '300px', // Set the width as needed
           borderRadius: '30px', // Adjust the border-radius for rounded edges
           position: 'fixed',
           bottom: '2%',
@@ -21,7 +22,7 @@ function GuideBar(){
       >
         <Stack
           direction="row"
-          spacing={5}
+          spacing={7}
           alignItems="center" // Vertically center the items
         >
             {/* about me */}

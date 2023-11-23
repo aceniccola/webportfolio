@@ -14,7 +14,7 @@ import background from './static/background.svg';
 function App() {
   const backgroundImageStyle = {
     backgroundImage: `url(${background})`,
-    backgroundSize: '10%',
+    backgroundSize: '5%',
     backgroundPosition: 'center',
     backgroundRepeat: 'repeat',
     backgroundAttachment: 'fixed', 
@@ -27,6 +27,7 @@ function App() {
       {/* fixed content goes here */}
       <div>
         <Buttons/>
+        <Intro/>
         <GuideBar/>
       </div>
     </div>
