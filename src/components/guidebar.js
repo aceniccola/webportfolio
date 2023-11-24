@@ -3,7 +3,8 @@ import { Stack, IconButton, BottomNavigation, BottomNavigationAction } from '@mu
 import PersonIcon from '@mui/icons-material/Person';
 import BookIcon from '@mui/icons-material/Book';
 import FolderIcon from '@mui/icons-material/Folder';
-
+import Intro from './intro';
+import { Link }  from 'react-router-dom';
 
 function GuideBar(){
     return (
@@ -26,17 +27,23 @@ function GuideBar(){
           alignItems="center" // Vertically center the items
         >
             {/* about me */}
-            <IconButton>
+            <IconButton
+            component={Link} 
+            to="#intro">
                 <PersonIcon color='primary'/>
             </IconButton>
 
             {/* skills */}
-            <IconButton>
+            <IconButton
+            component={Link} 
+            to="#skills">
                 <BookIcon color='primary'/>
             </IconButton>
 
             {/* portfolio */}
-            <IconButton>
+            <IconButton
+            component={Link} 
+            to="#portfolio">
                 <FolderIcon color='primary'/>
             </IconButton>
             </Stack>

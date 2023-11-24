@@ -14,11 +14,11 @@ import background from './static/background.svg';
 function App() {
   const backgroundImageStyle = {
     backgroundImage: `url(${background})`,
-    backgroundSize: '5%',
+    backgroundSize: '5%', // Cover the entire viewport
     backgroundPosition: 'center',
     backgroundRepeat: 'repeat',
     backgroundAttachment: 'fixed', 
-    height: '100vh',
+    height: '400vh',
     overflowY: 'auto', 
   };
 
