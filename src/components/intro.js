@@ -16,9 +16,9 @@ function Intro(){
         var typed = new Typed(el.current, {
             strings: ["Welcome", "I'm Andrew"],
             typeSpeed: 10,
-            startDelay: 750,
+            startDelay: 100,
             backSpeed: 20,
-            backDelay:3000,
+            backDelay: 3000,
             cursorChar:'|',
             loop: true,
 
@@ -35,15 +35,16 @@ function Intro(){
 
     React.useEffect(() => {
         var typed = new Typed(b1el.current, {
-            strings: ["I'm a Machine Learning Software Engineer.",
-            "I live for challanging puzzles and that moment when an idea comes together for the first time."],
+            strings: [
+            "I call myself a Machine Learning Software Engineer.",
+            "In reality, I live for challanging puzzles and that moment when an idea comes together for the first time.", 
+            "My current fixation is deep reinforcement learning and the problems that can be solved using complex structures yet simple reward functions."],
             typeSpeed: 1,
-            startDelay: 750,
+            startDelay: 5000,
             backSpeed: 10,
-            backDelay:6000,
+            backDelay:6500,
             cursorChar:'|',
             loop: true,
-
             });
 
         return () => {
@@ -52,33 +53,55 @@ function Intro(){
         };
     }, []);
     return (
-        <div style={{ position: 'absolute', top: '75px'}} id='intro' >
-          {/* Add margin-top to create space */}
-          <Paper elevation = '100' sx={{backgroundColor:'rgba(55, 55, 55, 0.05)', width:'50%', transform: 'translateX(50%)'}}>
-          <Typography align='center' sx={{ fontSize: 40,top: '10px', color:'#CCCCCC', fontFamily: 'source-code-pro'}} >
-              <span ref={el}/>
-          </Typography>
-          </Paper>
-          <Stack direction = 'row' alignItems="baseline" justifyContent='space-between ' spacing={3} style={{ marginTop: '50px', width: '90%', }} sx={{transform: 'translateX(5.60%)'}}>
+<div
+  justifyContent='center'
+  style={{
+    position: 'absolute',
+    top: '125px',
+    left: '50%',  // Center horizontally
+    transform: 'translateX(-50%)',
+    display: 'flex',
+    flexDirection: 'column',  // Stack children vertically
+    alignItems: 'center',  // Center children horizontally
+  }}
+  id='intro'
+>
+  {/* Add margin-top to create space */}
+  <Paper
+    elevation='100'
+    sx={{
+      backgroundColor: 'rgba(0,0,0, 0.5)',
+      boxShadow: '10px 10px 10px rgba(0,0,0, 0.99)',
+      width: '70%',
+    }}
+  >
+    <Typography
+      align='center'
+      sx={{ fontSize: 55, top: '10px', color: '#CCCCCC', fontFamily: 'source-code-pro' }}
+    >
+      <span ref={el} />
+    </Typography>
+  </Paper>
 
-            <Paper elevation='100' sx={{ width: '100%', padding: '10px', backgroundColor:'#000', boxShadow: '0 0 5px rgba(74, 246, 38, 0.99)'}}>
-              {/* Adjust padding as needed */}
-              <Typography style={{ overflowWrap: 'break-word' }} color='#CCCCCC' sx={{fontFamily:'source-code-pro', fontSize:20}}>
-                <span ref={b1el}/>
-                {/* My current fixation revolves around deep reinforcement learning.
-                Something I have  */}
-              </Typography>
-            </Paper>
-            <Paper elevation='100' sx = {{padding: '10px', width:'100%', backgroundColor:'#CCCCCC'}} >
-            <Typography style={{ overflowWrap: 'break-word' }} color='secondary' sx={{fontFamily:'source-code-pro', fontSize:20}}>
-                Picture Goes Here: I ooUBRJEAIORUBGOAErgoEIRGJ
-              </Typography>
-            </Paper>
-          </Stack>
+  <Paper
+    elevation='100'
+    style={{ marginTop: '100px', width: '500px', padding: '10px' }}
+    sx={{ backgroundColor: '#000', boxShadow: '0 0 5px rgba(74, 246, 38, 0.99)' }}
+  >
+    {/* Adjust padding as needed */}
+    <Typography
+      style={{ overflowWrap: 'break-word' }}
+      color='#CCCCCC'
+      sx={{ fontFamily: 'source-code-pro', fontSize: 20 }}
+    >
+      <span ref={b1el} />
+      {/* Your content goes here */}
+    </Typography>
+  </Paper>
 
-          <Stack direction = 'row' alignItems="baseline" justifyContent='space-between ' spacing={3} style={{ marginTop: '50px', width: '90%', }} sx={{transform: 'translateX(5.60%)'}}>
+          <Stack direction = 'row' alignItems="baseline" justifyContent='space-between ' spacing={3} style={{ marginTop: '5000px', width: '90%', }} sx={{transform: 'translateX(5.60%)'}}>
 
-            <Paper elevation='100' sx={{ width: '100%', padding: '10px', backgroundColor:'#000', boxShadow: '0 0 5px rgba(74, 246, 38, 0.99)'}}>
+            <Paper elevation='100' sx={{ width: '250px', padding: '10px', backgroundColor:'#000', boxShadow: '0 0 5px rgba(74, 246, 38, 0.99)'}}>
                 {/* Adjust padding as needed */}
                 <Typography style={{ overflowWrap: 'break-word' }} color='#CCCCCC' sx={{fontFamily:'source-code-pro', fontSize:20}}>
                     I'm a Machine Learning Software Engineer. 

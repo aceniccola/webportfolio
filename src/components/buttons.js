@@ -8,11 +8,11 @@ function Buttons(){
     return (
         <Stack 
         direction = 'row' 
-        spacing = {1} 
+        spacing = {2} 
         sx={{ 
         position: 'fixed',
         top: '8px', // Adjust the percentage as needed
-        right: '8px', // Adjust the percentage as needed
+        right: '3%', // Adjust the percentage as needed
         zIndex: 1000,
         }}>
 
