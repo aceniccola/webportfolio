@@ -1,5 +1,6 @@
 import * as React from "react";
 import Typed from "typed.js";
+import face from "../static/FunnyFace.jpeg";
 import {Paper, Typography, Stack} from '@mui/material';
 // Supports weights 200-900
 import '@fontsource-variable/source-code-pro';
@@ -9,6 +10,12 @@ import '@fontsource/monofett';
 import '@fontsource/preahvihear';
 
 function Intro(){
+    // const img = React.useRef(null);
+    // function createImage() {
+    //     let devImage = new Image(img.current);
+    //     devImage.src = "../static/FunnyFace.jpeg";
+    //     img.appendChild(devImage);
+    //  }
     // Create reference to store the DOM element containing the animation
     const el = React.useRef(null);
 
@@ -72,7 +79,7 @@ function Intro(){
     sx={{
       backgroundColor: 'rgba(0,0,0, 0.5)',
       boxShadow: '10px 10px 10px rgba(0,0,0, 0.99)',
-      width: '70%',
+      minWidth: '70%',
     }}
   >
     <Typography
@@ -86,7 +93,7 @@ function Intro(){
   <Paper
     elevation='100'
     style={{ marginTop: '100px', width: '500px', padding: '10px' }}
-    sx={{ backgroundColor: '#000', boxShadow: '0 0 5px rgba(74, 246, 38, 0.99)' }}
+    sx={{ backgroundColor: '#000', boxShadow: '0 0 5px rgba(74, 246, 38, 0.99)', minWidth: '500px', minHeight:'95px' }}
   >
     {/* Adjust padding as needed */}
     <Typography
@@ -98,6 +105,9 @@ function Intro(){
       {/* Your content goes here */}
     </Typography>
   </Paper>
+  <div>
+    <face/>
+  </div>
 
           <Stack direction = 'row' alignItems="baseline" justifyContent='space-between ' spacing={3} style={{ marginTop: '5000px', width: '90%', }} sx={{transform: 'translateX(5.60%)'}}>
 
