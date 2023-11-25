@@ -1,7 +1,8 @@
 import * as React from "react";
 import Typed from "typed.js";
 import face from "../static/FunnyFace.jpeg";
-import {Paper, Typography, Stack} from '@mui/material';
+import climb from "../static/AndrewHalf.jpg";
+import {Paper, Typography, Stack, Divider} from '@mui/material';
 // Supports weights 200-900
 import '@fontsource-variable/source-code-pro';
 // // Supports weights 200-900
@@ -59,12 +60,34 @@ function Intro(){
         typed.destroy();
         };
     }, []);
+    // Create reference to store the DOM element containing the animation
+    const b2el = React.useRef(null);
+
+    React.useEffect(() => {
+        var typed = new Typed(b2el.current, {
+            strings: [
+            "In my free time, I like to climb rocks of all shapes and sizes.",
+            "Climbing, like computer science, is a pursuit that I can strive to continually improve in by challanging myself and learning from others.", 
+            "I have a passion for the physical world. I hope my skills in computer science can help humans live more sustainably and enjoy this world we have a little more."],
+            typeSpeed: 1,
+            startDelay: 5000,
+            backSpeed: 10,
+            backDelay:7500,
+            cursorChar:'|',
+            loop: true,
+            });
+
+        return () => {
+        // Destroy Typed instance during cleanup to stop animation
+        typed.destroy();
+        };
+    }, []);
     return (
 <div
   justifyContent='center'
   style={{
     position: 'absolute',
-    top: '125px',
+    top: '85px',
     left: '50%',  // Center horizontally
     transform: 'translateX(-50%)',
     display: 'flex',
@@ -89,10 +112,12 @@ function Intro(){
       <span ref={el} />
     </Typography>
   </Paper>
-
+  <div>
+    <img src={face} alt="An image of just me... eventually lol" width="300" height="200" style={{ marginTop: '75px', borderRadius: '10px', boxShadow: '7px 7px 7px rgba(0,0,0, 0.99)'}}/>
+  </div>
   <Paper
     elevation='100'
-    style={{ marginTop: '100px', width: '500px', padding: '10px' }}
+    style={{ marginTop: '50px', width: '500px', padding: '10px' }}
     sx={{ backgroundColor: '#000', boxShadow: '0 0 5px rgba(74, 246, 38, 0.99)', minWidth: '500px', minHeight:'95px' }}
   >
     {/* Adjust padding as needed */}
@@ -105,9 +130,43 @@ function Intro(){
       {/* Your content goes here */}
     </Typography>
   </Paper>
-  <div>
-    <face/>
-  </div>
+  <Stack direction = 'row' spacing={5} style={{marginTop:'125px'}}>
+    <Paper
+        elevation='100'
+        style={{ minWidth: '280px', padding: '10px' }}
+        sx={{ backgroundColor: '#000', boxShadow: '0 0 5px rgba(74, 246, 38, 0.99)', minHeight:'95px' }}
+    >
+        {/* Adjust padding as needed */}
+        <Typography
+        style={{ overflowWrap: 'break-word' }}
+        color='#CCCCCC'
+        sx={{ fontFamily: 'source-code-pro', fontSize: 20 }}
+        >
+        <span ref={b2el} />
+        {/* Your content goes here */}
+        </Typography>
+    </Paper>
+    <div>
+        <img src={climb} alt="An image of me climbing" width="180" height="240" style={{ borderRadius: '10px', boxShadow: '7px 7px 7px rgba(0,0,0, 0.99)'}}/>
+    </div>
+  </Stack>
+
+  <Divider variant='fullWidth'>
+    Skills
+  </Divider>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
           <Stack direction = 'row' alignItems="baseline" justifyContent='space-between ' spacing={3} style={{ marginTop: '5000px', width: '90%', }} sx={{transform: 'translateX(5.60%)'}}>
 
