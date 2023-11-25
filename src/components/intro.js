@@ -151,9 +151,6 @@ function Intro(){
     </div>
   </Stack>
 
-  <Divider variant='fullWidth'>
-    Skills
-  </Divider>
 
 
 
