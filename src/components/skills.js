@@ -15,6 +15,7 @@ import react from '../static/badges/react.svg';
 import tf from '../static/badges/tensorflow.svg';
 import sql from '../static/badges/sqlite.svg';
 import django from '../static/badges/django.svg';
+import hf from '../static/badges/huggingface.svg';
 import aws from '../static/badges/aws.svg';
 import {Paper, Typography, Stack} from '@mui/material';
 
@@ -54,7 +55,10 @@ function Skills(){
       color='#CCCCCC'
       sx={{ fontFamily: 'source-code-pro', fontSize: 20, }}
     >
-      I graduated from the University of Virginia in 2023 with majors in Computer Science and Cognitive Science and minors in Pure Mathmatics and Physics. I'm currently working for NAVSEA building infastructure around AI/ML for the Navy. 
+        {/* TODO: make this better */}
+        I graduated from the University of Virginia in 2023 with majors in Computer Science and Cognitive Science and minors in Pure Mathmatics and Physics.
+        I'm currently working for NAVSEA building infastructure around AI/ML for the Navy.  
+
       {/* Your content goes here */}
     </Typography>
   </Paper>
@@ -155,7 +159,7 @@ function Skills(){
                 alignItems="flex-start"
                 spacing={0}
                 style={{marginTop:'10px'}}
-                ><img src={docker}/><img src={leetcode}/>
+                ><img src={docker}/><img src={hf}/>
                 </Stack>
                 <Stack
                 direction="row"

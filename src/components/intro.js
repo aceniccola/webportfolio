@@ -66,7 +66,6 @@ function Intro(){
     React.useEffect(() => {
         var typed = new Typed(b2el.current, {
             strings: [
-            "In my free time, I like to climb rocks of all shapes and sizes.",
             "Climbing, like computer science, is a pursuit that I can strive to continually improve in by challanging myself and learning from others.", 
             "I have a passion for the physical world. I hope my skills in computer science can help humans live more sustainably and enjoy this world we have a little more."],
             typeSpeed: 1,
