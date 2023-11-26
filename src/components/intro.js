@@ -133,7 +133,7 @@ function Intro(){
   <Stack direction = 'row' spacing={5} style={{marginTop:'125px'}}>
     <Paper
         elevation='100'
-        style={{ minWidth: '280px', padding: '10px' }}
+        style={{ minWidth: '280px', maxWidth: '280px', padding: '10px' }}
         sx={{ backgroundColor: '#000', boxShadow: '0 0 5px rgba(74, 246, 38, 0.99)', minHeight:'95px' }}
     >
         {/* Adjust padding as needed */}

@@ -20,16 +20,15 @@ import {Paper, Typography, Stack} from '@mui/material';
 
 function Skills(){
     return (
-        <div style={{marginTop:'1200px',alignItems: 'center',}} justifyContent='center'>
+        <div style={{marginTop:'1200px', alignItems: 'center',  flexDirection: 'column', display: 'flex', }} justifyContent='center'> 
         
         <Paper
         elevation='100'
         sx={{
         backgroundColor: 'rgba(0,0,0, 0.5)',
         boxShadow: '10px 10px 10px rgba(0,0,0, 0.99)',
-        maxWidth: '333px', 
-        left: '50%',
-        transform: 'translateX(33.3%)', // this is the center here
+        width: '400px', 
+        left: '50%', // this is the center here
         }}
         id = 'skills'
         >
@@ -42,47 +41,47 @@ function Skills(){
         </Paper>
         <Paper
     elevation='100'
-    style={{ marginTop: '85px', width: '500px', padding: '10px' }}
-    sx={{ transform: 'translateX(7.5%)', backgroundColor: '#000', boxShadow: '0 0 5px rgba(74, 246, 38, 0.99)', minWidth: '500px', minHeight:'95px' }}
-  >
+    style={{ marginTop: '55px', maxWidth: '252px', padding: '10px' }}
+    sx={{         
+        backgroundColor: 'rgba(0,0,0, 0.5)',
+        boxShadow: '10px 10px 10px rgba(0,0,0, 0.99)', 
+        minWidth: '500px', 
+        minHeight:'95px' 
+    }}>
     {/* Adjust padding as needed */}
     <Typography
       style={{ overflowWrap: 'break-word' }}
       color='#CCCCCC'
-      sx={{ fontFamily: 'source-code-pro', fontSize: 20 }}
+      sx={{ fontFamily: 'source-code-pro', fontSize: 20, }}
     >
-      desc
+      I graduated from the University of Virginia in 2023 with majors in Computer Science and Cognitive Science and minors in Pure Mathmatics and Physics. I'm currently working for NAVSEA building infastructure around AI/ML for the Navy. 
       {/* Your content goes here */}
     </Typography>
   </Paper>
         <Stack
         direction="row"
-        spacing={7}
+        spacing={5}
         alignItems="center" 
         style={{marginTop:'50px'}}
-        sx={{
-        maxWidth: '60%', 
-        left: '50%',
-        transform: 'translateX(5.66%)', // this is the center here... math lol
-        }}>
-                        <Paper         
-            sx={{
-            backgroundColor: 'rgba(0,0,0, 0.5)',
-            boxShadow: '10px 10px 10px rgba(0,0,0, 0.99)',
-            minWidth: '70%'
+        >
+            <Paper         
+                sx={{
+                backgroundColor: 'rgba(0,0,0, 0.5)',
+                boxShadow: '10px 10px 10px rgba(0,0,0, 0.99)',
+                width: '252px',
             }}>
                 <Typography
                 align='center'
                 sx={{ fontSize: 25, top: '10px', color: '#CCCCCC', fontFamily: 'source-code-pro' }}
                 >
-                Using Regularly 
+                    Using Regularly 
                 </Typography>
             </Paper>
             <Paper         
             sx={{
             backgroundColor: 'rgba(0,0,0, 0.5)',
             boxShadow: '10px 10px 10px rgba(0,0,0, 0.99)',
-            minWidth: '70%'
+            width: '252px',
             }}>
                 <Typography
                 align='center'
@@ -96,20 +95,18 @@ function Skills(){
 
         <Stack
         direction="row"
-        spacing={7}
+        spacing={5}
         alignItems="center" 
         style={{marginTop:'50px'}}
         sx={{
-        maxWidth: '60%', 
-        left: '50%',
-        transform: 'translateX(5.66%)', // this is the center here... math lol
+        maxWidth: '90%', 
         }}>
             {/* Skills that I can teach */}
             <Paper         
             sx={{
             backgroundColor: 'rgba(0,0,0, 0.5)',
             boxShadow: '10px 10px 10px rgba(0,0,0, 0.99)',
-            minWidth: '70%'
+            width: '252px',
             }}>
                 <Stack
                 direction="row"
@@ -150,7 +147,7 @@ function Skills(){
             sx={{
             backgroundColor: 'rgba(0,0,0, 0.5)',
             boxShadow: '10px 10px 10px rgba(0,0,0, 0.99)',
-            minWidth: '70%'
+            width: '252px',
             }}>
                 <Stack
                 direction="row"
