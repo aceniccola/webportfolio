@@ -150,66 +150,8 @@ function Intro(){
         <img src={climb} alt="An image of me climbing" width="180" height="240" style={{ borderRadius: '10px', boxShadow: '7px 7px 7px rgba(0,0,0, 0.99)'}}/>
     </div>
   </Stack>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-          <Stack direction = 'row' alignItems="baseline" justifyContent='space-between ' spacing={3} style={{ marginTop: '5000px', width: '90%', }} sx={{transform: 'translateX(5.60%)'}}>
-
-            <Paper elevation='100' sx={{ width: '250px', padding: '10px', backgroundColor:'#000', boxShadow: '0 0 5px rgba(74, 246, 38, 0.99)'}}>
-                {/* Adjust padding as needed */}
-                <Typography style={{ overflowWrap: 'break-word' }} color='#CCCCCC' sx={{fontFamily:'source-code-pro', fontSize:20}}>
-                    I'm a Machine Learning Software Engineer. 
-                    I live for challanging puzzles and that moment when an idea comes together for the first time. 
-                    {/* My current fixation revolves around deep reinforcement learning.
-                    Something I have  */}
-                </Typography>
-            </Paper>
-            <Paper elevation='100' sx={{ width: '100%', padding: '10px', backgroundColor:'#000', boxShadow: '0 0 5px rgba(74, 246, 38, 0.99)'}}>
-                {/* Adjust padding as needed */}
-                <Typography style={{ overflowWrap: 'break-word' }} color='#CCCCCC' sx={{fontFamily:'source-code-pro', fontSize:20}}>
-                    I'm a Machine Learning Software Engineer. 
-                    I live for challanging puzzles and that moment when an idea comes together for the first time. 
-                    {/* My current fixation revolves around deep reinforcement learning.
-                    Something I have  */}
-                </Typography>
-            </Paper>
-          </Stack>
-          <Stack direction = 'row' alignItems="baseline" justifyContent='space-between ' spacing={3} style={{ marginTop: '50px', width: '90%', }} sx={{transform: 'translateX(5.60%)'}}>
-
-            <Paper elevation='100' sx={{ width: '100%', padding: '10px', backgroundColor:'#000', boxShadow: '0 0 5px rgba(74, 246, 38, 0.99)'}}>
-                {/* Adjust padding as needed */}
-                <Typography style={{ overflowWrap: 'break-word' }} color='#CCCCCC' sx={{fontFamily:'source-code-pro', fontSize:20}}>
-                    I'm a Machine Learning Software Engineer. 
-                    I live for challanging puzzles and that moment when an idea comes together for the first time. 
-                    {/* My current fixation revolves around deep reinforcement learning.
-                    Something I have  */}
-                </Typography>
-            </Paper>
-            <Paper elevation='100' sx={{ width: '100%', padding: '10px', backgroundColor:'#000', boxShadow: '0 0 5px rgba(74, 246, 38, 0.99)'}}>
-                {/* Adjust padding as needed */}
-                <Typography style={{ overflowWrap: 'break-word' }} color='#CCCCCC' sx={{fontFamily:'source-code-pro', fontSize:20}}>
-                    I'm a Machine Learning Software Engineer. 
-                    I live for challanging puzzles and that moment when an idea comes together for the first time. 
-                    {/* My current fixation revolves around deep reinforcement learning.
-                    Something I have  */}
-                </Typography>
-            </Paper>
-          </Stack>
-
-        </div>
-      );
+  </div>
+    );
     };
 
 export default Intro;

@@ -3,6 +3,7 @@ import { Stack, IconButton, BottomNavigation, BottomNavigationAction } from '@mu
 import PersonIcon from '@mui/icons-material/Person';
 import BookIcon from '@mui/icons-material/Book';
 import FolderIcon from '@mui/icons-material/Folder';
+import SchoolIcon from '@mui/icons-material/School';
 import Intro from './intro';
 import { Link }  from 'react-router-dom';
 

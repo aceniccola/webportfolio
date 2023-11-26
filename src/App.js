@@ -18,16 +18,17 @@ function App() {
     backgroundPosition: 'center',
     backgroundRepeat: 'repeat',
     backgroundAttachment: 'fixed', 
-    height: '400vh',
+    height: '800vh',
     overflowY: 'auto', 
   };
 
   return (
     <div style={backgroundImageStyle}>
       {/* fixed content goes here */}
-      <div>
+      <div style={{ display: 'flex', flexDirection: 'column' }}>
         <Buttons/>
         <Intro/>
+        <Skills/>
         <GuideBar/>
       </div>
     </div>
