@@ -14,7 +14,6 @@ import qiskit from '../static/badges/qiskit.svg';
 import react from '../static/badges/react.svg';
 import tf from '../static/badges/tensorflow.svg';
 import sql from '../static/badges/sqlite.svg';
-import django from '../static/badges/django.svg';
 import hf from '../static/badges/huggingface.svg';
 import aws from '../static/badges/aws.svg';
 import {Paper, Typography, Stack} from '@mui/material';
@@ -31,7 +30,6 @@ function Skills(){
         width: '400px', 
         left: '50%', // this is the center here
         }}
-        id = 'skills'
         >
         <Typography
         align='center'

@@ -18,7 +18,7 @@ function Buttons(){
 
             <IconButton 
             component={Link} 
-            to="https://github.com/Andrew-Ceniccola"
+            to="https://github.com/aceniccola"
             sx = {{
                 p:'8px',
                 backgroundColor:'#CCCCCC',

@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import {Stack} from '@mui/material';
 import Intro from './components/intro';
 import Skills from './components/skills';
 import Projects from './components/projects';
@@ -21,12 +22,12 @@ function App() {
   return (
     <div style={backgroundImageStyle}>
       {/* fixed content goes here */}
-      <div style={{ display: 'flex', flexDirection: 'column' }}>
+      <Stack >
         <Buttons/>
         <Intro/>
         <Skills/>
         <GuideBar/>
-      </div>
+      </Stack>
     </div>
   );
 }

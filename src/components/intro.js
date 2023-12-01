@@ -2,22 +2,12 @@ import * as React from "react";
 import Typed from "typed.js";
 import face from "../static/FunnyFace.jpeg";
 import climb from "../static/AndrewHalf.jpg";
-import {Paper, Typography, Stack, Divider} from '@mui/material';
-// Supports weights 200-900
+import {Paper, Typography, Stack} from '@mui/material';
 import '@fontsource-variable/source-code-pro';
-// // Supports weights 200-900
 import '@fontsource/monofett';
-// // Supports weights 200-900
 import '@fontsource/preahvihear';
 
 function Intro(){
-    // const img = React.useRef(null);
-    // function createImage() {
-    //     let devImage = new Image(img.current);
-    //     devImage.src = "../static/FunnyFace.jpeg";
-    //     img.appendChild(devImage);
-    //  }
-    // Create reference to store the DOM element containing the animation
     const el = React.useRef(null);
 
     React.useEffect(() => {

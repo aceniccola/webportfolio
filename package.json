@@ -10,6 +10,7 @@
     "@fontsource/preahvihear": "^5.0.17",
     "@fontsource/press-start-2p": "^5.0.17",
     "@mui/icons-material": "^5.14.18",
+    "@mui/joy": "^5.0.0-beta.16",
     "@mui/material": "^5.14.18",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
