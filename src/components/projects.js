@@ -19,7 +19,7 @@ function Projects(){
               component="img"
               height="100"
               image="../static/cajal.jpg"
-              alt="green iguana"
+              alt="cajal"
             />
             <CardContent>
               <Typography gutterBottom variant="h5" component="div">
@@ -35,7 +35,6 @@ function Projects(){
               component={Link} 
               to="https://github.com/andarklabs/cajal"
               sx = {{
-                  p:'8px',
                   backgroundColor:'#CCCCCC',
                   marignLeft: 'auto',
               }}><GitHubIcon color="secondary"/>
