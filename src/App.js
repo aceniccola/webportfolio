@@ -27,6 +27,7 @@ function App() {
         <Intro/>
         <Skills/>
         <GuideBar/>
+        <Projects/>
       </Stack>
     </div>
   );

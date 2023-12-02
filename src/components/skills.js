@@ -55,7 +55,7 @@ function Skills(){
     >
         {/* TODO: make this better */}
         I graduated from the University of Virginia in 2023 with majors in Computer Science and Cognitive Science and minors in Pure Mathmatics and Physics.
-        I'm currently working for NAVSEA building infastructure around AI/ML for the Navy.  
+        I'm currently working for NAVSEA building infrastructure around AI/ML for the Navy.  
 
       {/* Your content goes here */}
     </Typography>
