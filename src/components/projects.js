@@ -19,7 +19,7 @@ function Projects(){
               component="img"
               height="100"
               image="../static/cajal.jpg"
-              alt="green iguana"
+              alt="cajal"
             />
             <CardContent>
               <Typography gutterBottom variant="h5" component="div">
