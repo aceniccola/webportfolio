@@ -1,6 +1,7 @@
 import * as React from 'react';
 import Button from '@mui/joy/Button';
 import Card from '@mui/joy/Card';
+import { Link }  from 'react-router-dom';
 import CardContent from '@mui/joy/CardContent';
 import IconButton from '@mui/joy/IconButton';
 import Typography from '@mui/joy/Typography';
@@ -17,23 +18,29 @@ function Projects(){
             <CardMedia
               component="img"
               height="100"
-              image="/static/images/cards/contemplative-reptile.jpg"
+              image="../static/cajal.jpg"
               alt="green iguana"
             />
             <CardContent>
               <Typography gutterBottom variant="h5" component="div">
-                Lizard
+                Cajal
               </Typography>
               <Typography variant="body2" color="text.secondary">
-                Lizards are a widespread group of squamate reptiles, with over 6,000
-                species, ranging across all continents except Antarctica
+                Neural Network Library for quick machine learning in c++.
               </Typography>
             </CardContent>
           </CardActionArea>
           <CardActions>
-            <Button size="small" color="primary">
-              Share
-            </Button>
+            <IconButton 
+              component={Link} 
+              to="https://github.com/andarklabs/cajal"
+              sx = {{
+                  p:'8px',
+                  backgroundColor:'#CCCCCC',
+                  marignLeft: 'auto',
+              }}><GitHubIcon color="secondary"/>
+
+              </IconButton>
           </CardActions>
         </Card>
       );
