@@ -42,7 +42,7 @@ function GuideBar(){
 
             {/* portfolio */}
             <IconButton
-            component={Link} 
+            component={Link}
             to="#portfolio">
                 <FolderIcon color='primary'/>
             </IconButton>

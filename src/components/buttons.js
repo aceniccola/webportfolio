@@ -19,6 +19,7 @@ function Buttons(){
             <IconButton 
             component={Link} 
             to="https://github.com/aceniccola"
+            target="_blank"
             sx = {{
                 p:'8px',
                 backgroundColor:'#CCCCCC',
@@ -31,6 +32,7 @@ function Buttons(){
             <IconButton 
             component={Link} 
             to="https://www.linkedin.com/in/andrew-ceniccola-752176295/"
+            target="_blank"
             sx = {{
                 p:'8px',
                 backgroundColor:'#CCCCCC',

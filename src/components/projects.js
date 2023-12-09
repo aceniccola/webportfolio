@@ -78,7 +78,7 @@ function Projects(){
                   </Link>
                 </Typography>
                 <Typography variant="body2" color="neutral">
-                  Neural Network Library for quick machine learning in C++.
+                  LLM Trained on medical data.
                 </Typography>
               </CardContent>
             </CardActionArea>
