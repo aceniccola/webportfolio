@@ -6,6 +6,7 @@ import Skills from './components/skills';
 import Projects from './components/projects';
 import GuideBar from'./components/guidebar';
 import Buttons from './components/buttons';
+import Contact from './components/contact';
 import background from './static/background.svg';
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
         <Skills/>
         <GuideBar/>
         <Projects/>
+        <Contact/>
       </Stack>
     </div>
   );
