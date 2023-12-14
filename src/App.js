@@ -16,7 +16,7 @@ function App() {
     backgroundPosition: 'center',
     backgroundRepeat: 'repeat',
     backgroundAttachment: 'fixed', 
-    height: '800vh',
+    height: '400vh',
     overflowY: 'auto', 
   };
 
@@ -25,7 +25,7 @@ function App() {
       {/* fixed content goes here */}
       <Stack >
         <Buttons/>
-        <Intro/>
+        <Intro />
         <Skills/>
         <GuideBar/>
         <Projects/>
