@@ -24,7 +24,7 @@ function App() {
     <div style={backgroundImageStyle}>
       {/* fixed content goes here */}
       <Stack >
-        <Buttons/>
+        <Buttons />
         <Intro />
         <Skills/>
         <GuideBar/>
