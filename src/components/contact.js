@@ -16,6 +16,11 @@ function Contact(){
         axios.post('http://localhost:3001/send', data)
             .then(response => {
                 console.log('Message sent', response);
+                // Clear the fields after successful post
+                document.getElementById('firstname').value = '';
+                document.getElementById('lastname').value = '';
+                document.getElementById('email').value = '';
+                document.getElementById('message').value = '';
             })
             .catch(error => {
                 console.error('Error sending message', error);

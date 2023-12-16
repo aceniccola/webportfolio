@@ -16,7 +16,7 @@ function App() {
     backgroundPosition: 'center',
     backgroundRepeat: 'repeat',
     backgroundAttachment: 'fixed', 
-    height: '400vh',
+    height: '450vh',
     overflowY: 'auto', 
   };
 
