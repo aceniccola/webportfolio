@@ -5,6 +5,8 @@ todo
 /.pnp
 .pnp.js
 
+# some files that should be hidden
+hidden
 .env
 
 # testing

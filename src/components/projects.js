@@ -106,7 +106,7 @@ function Projects(){
                   </Link>
                 </Typography>
                 <Typography variant="body2" color="neutral">
-                  Dynamic portfolio page.
+                  Dynamic portfolio page. Also contains a web CTF. Try finding the 1st flag... 
                 </Typography>
               </CardContent>
             </CardActionArea>
