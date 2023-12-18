@@ -17,15 +17,20 @@ function Contact() {
             message: document.getElementById('message').value,
         };
 
+        // Conditional logic based on the message
+        if (data.message === 'x') {
+            setTypographyContent('a');
+        } else if (data.message === 'y') {
+            setTypographyContent('b');
+        } else if (data.message === 'z') {
+            setTypographyContent('c');
+        } else {
+            setTypographyContent('d'); // Default case
+        }
+
         axios.post('http://localhost:3001/send', data)
             .then(response => {
-                // Conditional logic based on the message
-                if (data.message === 'q84hganIom94gbua$vN0q4gha5-iau&rbnga87598b') {
-                    setTypographyContent('Congratulations', data.firstname, 'for finding the 1st flag');
-                } else { 
-                    setTypographyContent(response.data.responseText); // Default case
-                }
-
+                console.log('Message sent', response);
                 // Clear the fields after successful post
                 document.getElementById('firstname').value = '';
                 document.getElementById('lastname').value = '';
