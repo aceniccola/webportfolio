@@ -8,6 +8,8 @@ todo
 # some files that should be hidden
 hidden
 .env
+*flagwander*
+server.js
 
 # testing
 /coverage
