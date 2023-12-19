@@ -7,7 +7,7 @@ import axios from 'axios';
 
 function Contact() {
     // State variable to hold the Typography content
-    const [typographyContent, setTypographyContent] = useState('Lets Talk!');
+    const [typographyContent, setTypographyContent] = useState("Let's Talk!");
 
     const handleSubmit = () => {
         const data = {

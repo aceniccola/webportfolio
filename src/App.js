@@ -12,7 +12,7 @@ import background from './static/background.svg';
 function App() {
   const backgroundImageStyle = {
     backgroundImage: `url(${background})`,
-    backgroundSize: '5%', // Cover the entire viewport
+    backgroundSize: '5%', 
     backgroundPosition: 'center',
     backgroundRepeat: 'repeat',
     backgroundAttachment: 'fixed', 
@@ -28,7 +28,6 @@ function App() {
   } else {
     return (
       <div style={backgroundImageStyle}>
-        {/* fixed content goes here */}
         <Stack >
           <Buttons />
           <Intro />
