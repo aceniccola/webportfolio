@@ -6,6 +6,7 @@ import Skills from './components/skills';
 import Projects from './components/projects';
 import Buttons from './components/buttons';
 import Contact from './components/contact';
+import Playground from './components/hidden/secretplayground';
 import background from './static/background.svg';
 
 function App() {
@@ -18,18 +19,24 @@ function App() {
     height: '450vh',
     overflowY: 'auto', 
   };
-
-  return (
-    <div style={backgroundImageStyle}>
-      {/* fixed content goes here */}
-      <Stack >
-        <Buttons />
-        <Intro />
-        <Skills/>
-        <Projects/>
-        <Contact/>
-      </Stack>
-    </div>
-  );
+  const elm = window.location.href
+  console.log(elm)
+  if (elm === 'http://localhost:3000/hidden/secretplayground'){
+    return (
+        <Playground/>
+    )
+  } else {
+    return (
+      <div style={backgroundImageStyle}>
+        {/* fixed content goes here */}
+        <Stack >
+          <Buttons />
+          <Intro />
+          <Skills/>
+          <Projects/>
+          <Contact/>
+        </Stack>
+      </div>
+    );}
 }
 export default App;
