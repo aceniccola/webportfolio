@@ -4,7 +4,6 @@ import {Stack} from '@mui/material';
 import Intro from './components/intro';
 import Skills from './components/skills';
 import Projects from './components/projects';
-import GuideBar from'./components/guidebar';
 import Buttons from './components/buttons';
 import Contact from './components/contact';
 import background from './static/background.svg';
@@ -27,7 +26,6 @@ function App() {
         <Buttons />
         <Intro />
         <Skills/>
-        <GuideBar/>
         <Projects/>
         <Contact/>
       </Stack>
