@@ -3,7 +3,6 @@ import { useState } from 'react'; // Import useState
 import { Card, Stack, Button } from '@mui/joy';
 import { Paper, Typography, TextField } from '@mui/material';
 import SendIcon from '@mui/icons-material/Send';
-import { useFormControl } from '@mui/material/FormControl';
 import axios from 'axios';
 
 function Contact() {
