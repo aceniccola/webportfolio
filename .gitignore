@@ -10,6 +10,7 @@ hidden
 .env
 *flagwander*
 server.js
+plygrnd.py
 
 # testing
 /coverage
