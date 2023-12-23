@@ -9,7 +9,8 @@ todo
 hidden
 .env
 *flagwander*
-server.js
+server*
+/src
 plygrnd.py
 
 # testing
@@ -28,3 +29,4 @@ plygrnd.py
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+backend/server.js
