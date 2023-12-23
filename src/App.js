@@ -12,11 +12,11 @@ import background from './static/background.svg';
 function App() {
   const backgroundImageStyle = {
     backgroundImage: `url(${background})`,
-    backgroundSize: '5%', 
+    backgroundSize: '.75%', 
     backgroundPosition: 'center',
     backgroundRepeat: 'repeat',
     backgroundAttachment: 'fixed', 
-    height: '450vh',
+    height: '3500px',
     overflowY: 'auto', 
   };
   const elm = window.location.href
