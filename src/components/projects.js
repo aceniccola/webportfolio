@@ -3,7 +3,7 @@ import cajal from '../static/cajal.jpg';
 import hyper from '../static/hyperjumps.png';
 import website from '../static/website.png';
 import robdoc from '../static/robot_doctor.jpeg';
-import { Card, Link, Typography, CardContent, Button, IconButton} from '@mui/joy';
+import { Card, Link, Typography, CardContent} from '@mui/joy';
 import { CardActionArea, Stack, Paper, CardMedia } from '@mui/material';
 
 

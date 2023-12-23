@@ -1,9 +1,8 @@
 import * as React from "react";
-import { Stack, IconButton, BottomNavigation, BottomNavigationAction } from '@mui/material';
+import { Stack, IconButton, BottomNavigation} from '@mui/material';
 import PersonIcon from '@mui/icons-material/Person';
 import BookIcon from '@mui/icons-material/Book';
 import FolderIcon from '@mui/icons-material/Folder';
-import Intro from './intro.js';
 import { Link }  from 'react-router-dom';
 
 function GuideBar(){
