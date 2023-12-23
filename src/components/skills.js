@@ -4,7 +4,6 @@ import cplus from '../static/badges/c++.svg';
 import docker from '../static/badges/docker.svg';
 import javascript from '../static/badges/javascript.svg';
 import latex from '../static/badges/latex.svg';
-import leetcode from '../static/badges/leetcode.svg';
 import fun from '../static/badges/flagwander.svg';
 import node from '../static/badges/node.svg';
 import numpy from '../static/badges/numpy.svg';
