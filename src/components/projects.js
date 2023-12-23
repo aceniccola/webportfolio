@@ -1,6 +1,4 @@
 import * as React from 'react';
-import BookmarkAdd from '@mui/icons-material/BookmarkAddOutlined';
-import  GitHubIcon  from '@mui/icons-material/GitHub';
 import cajal from '../static/cajal.jpg';
 import hyper from '../static/hyperjumps.png';
 import website from '../static/website.png';

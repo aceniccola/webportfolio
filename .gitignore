@@ -10,8 +10,6 @@ todo
 hidden
 .env
 *flagwander*
-server*
-plygrnd.py
 
 # testing
 /coverage
