@@ -13,7 +13,7 @@
   }
 }
 html::-webkit-scrollbar{
-  width: 1.5vw;
+  width: 12px;
   background: linear-gradient(#171717, #3b3b3b);
 }
 html::-webkit-scrollbar-track{
@@ -22,7 +22,7 @@ html::-webkit-scrollbar-track{
   border-radius: 100vw;
 }
 html::-webkit-scrollbar-thumb{
-  border: .5vw solid #6d1b7b;
+  border: 3px solid #6d1b7b;
   background-color: #0f0915;
   border-radius: 100vw;
 }

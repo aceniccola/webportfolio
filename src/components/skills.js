@@ -20,7 +20,7 @@ import {Paper, Typography, Stack} from '@mui/material';
 
 function Skills(){
     return (
-        <div style={{marginTop:'1000px', alignItems: 'center',  flexDirection: 'column', display: 'flex', }} justifyContent='center'> 
+        <div style={{marginTop:'200px', alignItems: 'center',  flexDirection: 'column', display: 'flex', }} justifyContent='center'> 
         
         <Paper
         elevation='100'
@@ -39,24 +39,24 @@ function Skills(){
         </Typography>
         </Paper>
         <Paper
-    elevation='100'
-    style={{ marginTop: '55px', maxWidth: '252px', padding: '10px' }}
-    sx={{         
-        backgroundColor: 'rgba(0,0,0, 0.5)',
-        boxShadow: '10px 10px 10px rgba(0,0,0, 0.99)', 
-        minWidth: '500px', 
-        minHeight:'95px' 
-    }}>
-    {/* Adjust padding as needed */}
-    <Typography
-      style={{ overflowWrap: 'break-word' }}
-      color='#CCCCCC'
-      sx={{ fontFamily: 'source-code-pro', fontSize: 20, }}
-    >
-        I graduated from the University of Virginia in 2023 with majors in Computer Science and Cognitive Science and minors in Pure Mathmatics and Physics.
-        I'm interested in identifing and/or creating some mathmatical connections between Computer Science and our current understanding of Neuroscience. 
-    </Typography>
-  </Paper>
+            elevation='100'
+            style={{ marginTop: '55px', maxWidth: '252px', padding: '10px' }}
+            sx={{         
+                backgroundColor: 'rgba(0,0,0, 0.5)',
+                boxShadow: '10px 10px 10px rgba(0,0,0, 0.99)', 
+                minWidth: '500px', 
+                minHeight:'95px' 
+            }}>
+            {/* Adjust padding as needed */}
+            <Typography
+            style={{ overflowWrap: 'break-word' }}
+            color='#CCCCCC'
+            sx={{ fontFamily: 'source-code-pro', fontSize: 20, }}
+            >
+                I graduated from the University of Virginia in 2023 with majors in Computer Science and Cognitive Science and minors in Pure Mathmatics and Physics.
+                I'm interested in identifing and/or creating some mathmatical connections between Computer Science and our current understanding of Neuroscience. 
+            </Typography>
+        </Paper>
         <Stack
         direction="row"
         spacing={5}

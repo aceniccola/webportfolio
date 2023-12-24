@@ -49,7 +49,7 @@ function Contact() {
     };
 
     return (
-        <div style={{marginTop:'250px', alignItems: 'center',  flexDirection: 'column', display: 'flex', }} justifyContent='center'> 
+        <div style={{marginTop:'200px', alignItems: 'center',  flexDirection: 'column', display: 'flex', }} justifyContent='center'> 
             <Paper
             elevation='100'
             sx={{
@@ -66,7 +66,7 @@ function Contact() {
                 Contact Me
                 </Typography>
             </Paper>
-            <Card variant="outlined" color="primary" style={{ backgroundColor: '#E5E5E5', boxShadow: '10px 10px 10px rgba(0,0,0, 0.99)', marginTop:'50px'}} sx={{ Height: 250, minWidth: 450, maxWidth: 450 }}>
+            <Card variant="outlined" color="primary" style={{ backgroundColor: '#E5E5E5', boxShadow: '10px 10px 10px rgba(0,0,0, 0.99)', marginTop:'55px'}} sx={{ Height: 250, minWidth: 450, maxWidth: 450 }}>
                 <Stack spacing={2} alignItems="center">
                     <Typography> {typographyContent} </Typography>
                     <Stack direction='row' spacing={7.5} alignItems="center" justifyContent="space-between">

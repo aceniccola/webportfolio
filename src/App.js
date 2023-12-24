@@ -17,7 +17,7 @@ function App() {
     backgroundPosition: 'center',
     backgroundRepeat: 'repeat',
     backgroundAttachment: 'fixed', 
-    height: '4250px',
+    height: '4300px',
     overflowY: 'auto', 
   };
   const elm = window.location.href

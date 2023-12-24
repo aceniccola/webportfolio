@@ -2,6 +2,7 @@ import * as React from "react";
 import {Paper, Typography, Stack} from '@mui/material';
 import Typed from "typed.js";
 import climb from "../static/AndrewHalf.jpg";
+import mont from "../static/Vestrahorn.jpg";
 import '@fontsource-variable/source-code-pro';
 
 function AboutMe() {
@@ -28,7 +29,7 @@ function AboutMe() {
     }, []);
 
     return (
-        <div style={{marginTop:'250px', alignItems: 'center',  flexDirection: 'column', display: 'flex', }} justifyContent='center'> 
+        <div style={{marginTop:'200px', alignItems: 'center',  flexDirection: 'column', display: 'flex', }} justifyContent='center'> 
             <Paper
             elevation='100'
             sx={{
@@ -45,7 +46,10 @@ function AboutMe() {
                 About Me
                 </Typography>
             </Paper>
-            <Stack direction = 'row' spacing={5} style={{marginTop:'175px'}}>
+            <div>
+                <img src={mont} alt="Photograph of Vestrahorn in Iceland" width="300" height="200" style={{ marginTop: '55px', borderRadius: '10px', boxShadow: '7px 7px 7px rgba(0,0,0, 0.99)'}}/>
+            </div>
+            <Stack direction = 'row' spacing={5} style={{marginTop:'80px'}}>
                 <Paper
                     elevation='100'
                     style={{ minWidth: '280px', maxWidth: '280px', padding: '10px' }}

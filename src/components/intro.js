@@ -48,26 +48,14 @@ function Intro(){
     }, []);
 
     return (
-<div
-  justifyContent='center'
-  style={{
-    position: 'absolute',
-    top: '85px',
-    left: '50%',  // Center horizontally
-    transform: 'translateX(-50%)',
-    display: 'flex',
-    flexDirection: 'column',  // Stack children vertically
-    alignItems: 'center',  // Center children horizontally
-  }}
-  id='intro'
->
+<div style={{marginTop:'90px', alignItems: 'center',  flexDirection: 'column', display: 'flex', }} justifyContent='center'> 
   {/* Add margin-top to create space */}
   <Paper
     elevation='100'
     sx={{
       backgroundColor: 'rgba(0,0,0, 0.5)',
       boxShadow: '10px 10px 10px rgba(0,0,0, 0.99)',
-      minWidth: '70%',
+      width: '400px'
     }}
   >
     <Typography
@@ -79,11 +67,11 @@ function Intro(){
   </Paper>
   <Paper
     elevation='100'
-    style={{ marginTop: '55px', padding: '10px' }}
+    style={{ marginTop: '66px', padding: '10px' }}
     sx={{         
         backgroundColor: 'rgba(0,0,0, 0.5)',
         boxShadow: '10px 10px 10px rgba(0,0,0, 0.99)', 
-        minWidth: '500px', 
+        width: '500px', 
         minHeight:'95px' 
     }}>
       {/* Adjust padding as needed */}
@@ -97,7 +85,7 @@ function Intro(){
       </Typography>
   </Paper>
   <div>
-    <img src={face} alt="An image of just me... eventually lol" width="300" height="200" style={{ marginTop: '75px', borderRadius: '10px', boxShadow: '7px 7px 7px rgba(0,0,0, 0.99)'}}/>
+    <img src={face} alt="An image of just me... eventually lol" width="300" height="200" style={{ marginTop: '66px', borderRadius: '10px', boxShadow: '7px 7px 7px rgba(0,0,0, 0.99)'}}/>
   </div>
   <Paper
     elevation='100'
