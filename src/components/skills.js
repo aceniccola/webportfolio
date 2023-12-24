@@ -20,7 +20,7 @@ import {Paper, Typography, Stack} from '@mui/material';
 
 function Skills(){
     return (
-        <div style={{marginTop:'1200px', alignItems: 'center',  flexDirection: 'column', display: 'flex', }} justifyContent='center'> 
+        <div style={{marginTop:'1000px', alignItems: 'center',  flexDirection: 'column', display: 'flex', }} justifyContent='center'> 
         
         <Paper
         elevation='100'
@@ -35,7 +35,7 @@ function Skills(){
         align='center'
         sx={{ fontSize: 55, top: '10px', color: '#CCCCCC', fontFamily: 'source-code-pro' }}
         >
-        My Skillset:
+        My Skillset
         </Typography>
         </Paper>
         <Paper
@@ -53,11 +53,8 @@ function Skills(){
       color='#CCCCCC'
       sx={{ fontFamily: 'source-code-pro', fontSize: 20, }}
     >
-        {/* TODO: make this better */}
         I graduated from the University of Virginia in 2023 with majors in Computer Science and Cognitive Science and minors in Pure Mathmatics and Physics.
-        I'm currently working for NAVSEA building infrastructure around AI/ML for the Navy.  
-
-      {/* Your content goes here */}
+        I'm interested in identifing and creating hypothetical mathmatical connections between Computer Science and our current understanding of Neuroscience. 
     </Typography>
   </Paper>
         <Stack

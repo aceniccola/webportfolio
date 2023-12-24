@@ -6,6 +6,7 @@ import Skills from './components/skills';
 import Projects from './components/projects';
 import Buttons from './components/buttons';
 import Contact from './components/contact';
+import AboutMe from './components/aboutme';
 import Playground from './components/hidden/secretplayground';
 import background from './static/background.svg';
 
@@ -16,7 +17,7 @@ function App() {
     backgroundPosition: 'center',
     backgroundRepeat: 'repeat',
     backgroundAttachment: 'fixed', 
-    height: '3500px',
+    height: '4250px',
     overflowY: 'auto', 
   };
   const elm = window.location.href
@@ -33,6 +34,7 @@ function App() {
           <Intro />
           <Skills/>
           <Projects/>
+          <AboutMe/>
           <Contact/>
         </Stack>
       </div>

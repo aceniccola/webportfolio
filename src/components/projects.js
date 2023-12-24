@@ -7,7 +7,7 @@ import { Card, Link, Typography, CardContent} from '@mui/joy';
 import { CardActionArea, Stack, Paper, CardMedia } from '@mui/material';
 
 
-function Projects(){
+function Projects() {
 
   return (
     <div style={{marginTop:'200px', alignItems: 'center',  flexDirection: 'column', display: 'flex', }} justifyContent='center'> 

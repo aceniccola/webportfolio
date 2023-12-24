@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { useState } from 'react'; // Import useState
 import { Card, Stack, Button } from '@mui/joy';
-import { Typography, TextField } from '@mui/material';
+import { Typography, TextField, Paper } from '@mui/material';
 import SendIcon from '@mui/icons-material/Send';
 import axios from 'axios';
 
@@ -49,8 +49,24 @@ function Contact() {
     };
 
     return (
-        <div style={{ marginTop: '210px', alignItems: 'center', flexDirection: 'column', display: 'flex', }} justifyContent='center'>
-            <Card variant="outlined" color="primary" style={{ backgroundColor: '#E5E5E5', boxShadow: '10px 10px 10px rgba(0,0,0, 0.99)', }} sx={{ Height: 250, minWidth: 450, maxWidth: 450 }}>
+        <div style={{marginTop:'250px', alignItems: 'center',  flexDirection: 'column', display: 'flex', }} justifyContent='center'> 
+            <Paper
+            elevation='100'
+            sx={{
+            backgroundColor: 'rgba(0,0,0, 0.5)',
+            boxShadow: '10px 10px 10px rgba(0,0,0, 0.99)',
+            width: '400px', 
+            left: '50%', // this is the center here
+            }}
+            >
+                <Typography
+                align='center'
+                sx={{ fontSize: 55, top: '10px', color: '#CCCCCC', fontFamily: 'source-code-pro' }}
+                >
+                Contact Me
+                </Typography>
+            </Paper>
+            <Card variant="outlined" color="primary" style={{ backgroundColor: '#E5E5E5', boxShadow: '10px 10px 10px rgba(0,0,0, 0.99)', marginTop:'50px'}} sx={{ Height: 250, minWidth: 450, maxWidth: 450 }}>
                 <Stack spacing={2} alignItems="center">
                     <Typography> {typographyContent} </Typography>
                     <Stack direction='row' spacing={7.5} alignItems="center" justifyContent="space-between">
