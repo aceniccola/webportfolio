@@ -12,7 +12,28 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+html::-webkit-scrollbar{
+  width: 1.5vw;
+  background: linear-gradient(#171717, #3b3b3b);
+}
+html::-webkit-scrollbar-track{
+  background: linear-gradient(#171717, #3b3b3b);
+  margin-block: 0.5rem;
+  border-radius: 100vw;
+}
+html::-webkit-scrollbar-thumb{
+  border: .5vw solid #6d1b7b;
+  background-color: #0f0915;
+  border-radius: 100vw;
+}
+html::-webkit-scrollbar-thumb:hover{
+  border-color: #0f0915;
+  background-color: #6d1b7b;
+}
+html{
+  scrollbar-width: thin;
+  scrollbar-color: #0f0f0f #6d1b7b;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;

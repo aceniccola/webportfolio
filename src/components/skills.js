@@ -54,7 +54,7 @@ function Skills(){
       sx={{ fontFamily: 'source-code-pro', fontSize: 20, }}
     >
         I graduated from the University of Virginia in 2023 with majors in Computer Science and Cognitive Science and minors in Pure Mathmatics and Physics.
-        I'm interested in identifing and creating hypothetical mathmatical connections between Computer Science and our current understanding of Neuroscience. 
+        I'm interested in identifing and/or creating some mathmatical connections between Computer Science and our current understanding of Neuroscience. 
     </Typography>
   </Paper>
         <Stack
