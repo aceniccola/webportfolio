@@ -13,7 +13,7 @@ import background from './static/background.svg';
 function App() {
   const backgroundImageStyle = {
     backgroundImage: `url(${background})`,
-    backgroundSize: '.75%', 
+    backgroundSize: '90%', 
     backgroundPosition: 'center',
     backgroundRepeat: 'repeat',
     backgroundAttachment: 'fixed', 
