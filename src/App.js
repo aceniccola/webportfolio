@@ -22,7 +22,7 @@ function App() {
   };
   const elm = window.location.href
   console.log(elm)
-  if (elm === 'http://localhost:3000/hidden/secretplayground'){
+  if (elm === 'https://aceniccola.github.io/webportfolio/hidden/secretplayground'){
     return (
         <Playground/>
     )
