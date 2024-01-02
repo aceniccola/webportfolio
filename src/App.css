@@ -14,10 +14,10 @@
 }
 html::-webkit-scrollbar{
   width: 12px;
-  background: linear-gradient(#171717, #3b3b3b);
+  background: linear-gradient(#171717, #292929, #171717);
 }
 html::-webkit-scrollbar-track{
-  background: linear-gradient(#171717, #3b3b3b);
+  background: linear-gradient(#171717, #292929, #171717);
   margin-block: 0.5rem;
   border-radius: 100vw;
 }
