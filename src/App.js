@@ -11,6 +11,7 @@ import Playground from './components/hidden/secretplayground';
 import background from './static/background.svg';
 
 function App() {
+  var w = window.innerWidth;
   const backgroundImageStyle = {
     backgroundImage: `url(${background})`,
     backgroundSize: '90%', 
@@ -22,21 +23,23 @@ function App() {
   };
   const elm = window.location.href
   console.log(elm)
-  if (elm === 'https://aceniccola.github.io/webportfolio/hidden/secretplayground'){
+  if (elm === 'http://localhost:3000/hidden/secretplayground'){
     return (
         <Playground/>
     )
   } else {
     return (
-      <div style={backgroundImageStyle}>
-        <Stack >
-          <Buttons />
-          <Intro />
-          <Skills/>
-          <Projects/>
-          <AboutMe/>
-          <Contact/>
-        </Stack>
+      <div style={backgroundImageStyle} >
+        <div >
+          <Stack >
+            <Buttons />
+            <Intro />
+            <Skills/>
+            <Projects/>
+            <AboutMe/>
+            <Contact/>
+          </Stack>
+        </div>
       </div>
     );}
 }

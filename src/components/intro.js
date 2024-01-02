@@ -53,8 +53,8 @@ function Intro(){
   <Paper
     elevation='100'
     sx={{
-      backgroundColor: 'rgba(0,0,0, 0.5)',
-      boxShadow: '10px 10px 10px rgba(0,0,0, 0.99)',
+      backgroundColor: 'rgba(0,0,0, 0.0)',
+      boxShadow: '10px 10px 10px rgba(0,0,0, 0.0)',
       width: '400px'
     }}
   >
@@ -69,8 +69,8 @@ function Intro(){
     elevation='100'
     style={{ marginTop: '66px', padding: '10px' }}
     sx={{         
-        backgroundColor: 'rgba(0,0,0, 0.5)',
-        boxShadow: '10px 10px 10px rgba(0,0,0, 0.99)', 
+        backgroundColor: 'rgba(0,0,0, 0.0)',
+        boxShadow: '10px 10px 10px rgba(0,0,0, 0.0)', 
         width: '500px', 
         minHeight:'95px' 
     }}>

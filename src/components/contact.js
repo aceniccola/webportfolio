@@ -53,8 +53,8 @@ function Contact() {
             <Paper
             elevation='100'
             sx={{
-            backgroundColor: 'rgba(0,0,0, 0.5)',
-            boxShadow: '10px 10px 10px rgba(0,0,0, 0.99)',
+            backgroundColor: 'rgba(0,0,0, 0.0)',
+            boxShadow: '10px 10px 10px rgba(0,0,0, 0.0)',
             width: '400px', 
             left: '50%', // this is the center here
             }}

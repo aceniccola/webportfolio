@@ -25,8 +25,8 @@ function Skills(){
         <Paper
         elevation='100'
         sx={{
-        backgroundColor: 'rgba(0,0,0, 0.5)',
-        boxShadow: '10px 10px 10px rgba(0,0,0, 0.99)',
+        backgroundColor: 'rgba(0,0,0, 0.0)',
+        boxShadow: '10px 10px 10px rgba(0,0,0, 0.0)',
         width: '400px', 
         left: '50%', // this is the center here
         }}
@@ -42,8 +42,8 @@ function Skills(){
             elevation='100'
             style={{ marginTop: '55px', maxWidth: '252px', padding: '10px' }}
             sx={{         
-                backgroundColor: 'rgba(0,0,0, 0.5)',
-                boxShadow: '10px 10px 10px rgba(0,0,0, 0.99)', 
+                backgroundColor: 'rgba(0,0,0, 0.0)',
+                boxShadow: '10px 10px 10px rgba(0,0,0, 0.0)', 
                 minWidth: '500px', 
                 minHeight:'95px' 
             }}>
@@ -65,8 +65,8 @@ function Skills(){
         >
             <Paper         
                 sx={{
-                backgroundColor: 'rgba(0,0,0, 0.5)',
-                boxShadow: '10px 10px 10px rgba(0,0,0, 0.99)',
+                backgroundColor: 'rgba(0,0,0, 0.0)',
+                boxShadow: '10px 10px 10px rgba(0,0,0, 0.0)',
                 width: '252px',
             }}>
                 <Typography
@@ -78,8 +78,8 @@ function Skills(){
             </Paper>
             <Paper         
             sx={{
-            backgroundColor: 'rgba(0,0,0, 0.5)',
-            boxShadow: '10px 10px 10px rgba(0,0,0, 0.99)',
+            backgroundColor: 'rgba(0,0,0, 0.0)',
+            boxShadow: '10px 10px 10px rgba(0,0,0, 0.0)',
             width: '252px',
             }}>
                 <Typography
@@ -103,8 +103,8 @@ function Skills(){
             {/* Skills that I can teach */}
             <Paper         
             sx={{
-            backgroundColor: 'rgba(0,0,0, 0.5)',
-            boxShadow: '10px 10px 10px rgba(0,0,0, 0.99)',
+            backgroundColor: 'rgba(0,0,0, 0.0)',
+            boxShadow: '10px 10px 10px rgba(0,0,0, 0.0)',
             width: '252px',
             }}>
                 <Stack
@@ -144,8 +144,8 @@ function Skills(){
             {/* Skills that I am learning */}
             <Paper       
             sx={{
-            backgroundColor: 'rgba(0,0,0, 0.5)',
-            boxShadow: '10px 10px 10px rgba(0,0,0, 0.99)',
+            backgroundColor: 'rgba(0,0,0, 0.0)',
+            boxShadow: '10px 10px 10px rgba(0,0,0, 0.0)',
             width: '252px',
             }}>
                 <Stack
